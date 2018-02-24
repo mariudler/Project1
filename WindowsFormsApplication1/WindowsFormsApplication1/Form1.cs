@@ -16,10 +16,6 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
-        protected override void OnPaint(PaintEventArgs e)
-        {
-            e.Graphics.FillEllipse(Brushes.Yellow, 50, 50, 50, 50);
-        }
         private void Form1_Load(object sender, EventArgs e)
         {
 

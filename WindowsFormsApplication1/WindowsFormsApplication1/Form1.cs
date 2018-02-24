@@ -15,10 +15,14 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+            SquareForm form1 = new SquareForm();
+            form1.Show();
+            CircleForm form2 = new CircleForm();
+            form2.Show();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+          
         }
     }
 }

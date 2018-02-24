@@ -18,7 +18,7 @@ namespace WindowsFormsApplication1
         }
         protected override void OnPaint(PaintEventArgs e)
         {
-            e.Graphics.FillRectangle(System.Drawing.Brushes.Blue, 100, 100, 50, 50);
+            e.Graphics.FillEllipse(Brushes.Yellow, 50, 50, 50, 50);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
